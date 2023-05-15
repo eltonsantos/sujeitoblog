@@ -99,9 +99,7 @@ export const getStaticProps: GetStaticProps = async () => {
   // console.log(response.results[0].data);
 
   const {
-    title, sub_title, link_action,
-    mobile, mobile_content, mobile_banner,
-    title_web, web_content, web_banner    
+    title, sub_title, link_action, mobile, mobile_content, mobile_banner, title_web, web_content, web_banner    
   } = response.results[0].data;
   
   const content = {
