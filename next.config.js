@@ -4,6 +4,9 @@ const nextConfig = {
   experimental: {
     newNextLinkBehavior: false,
   },
+  images: {
+    domains: ["images.prismic.io"]
+  }
 }
 
 module.exports = nextConfig
