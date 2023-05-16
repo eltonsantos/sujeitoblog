@@ -11,7 +11,7 @@ import Prismic from '@prismicio/client';
 import { RichText } from 'prismic-dom';
 
 type Content = {
-  title: string;
+  title?: string;
   titleContent: string;
   linkAction: string;  
   mobileTitle: string;

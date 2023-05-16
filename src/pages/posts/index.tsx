@@ -18,7 +18,7 @@ import { FiChevronLeft, FiChevronsLeft, FiChevronRight, FiChevronsRight} from 'r
 
 type Post = {
   slug: string;
-  title?: string;
+  title: string;
   cover: string;
   description: string;
   updatedAt: string
