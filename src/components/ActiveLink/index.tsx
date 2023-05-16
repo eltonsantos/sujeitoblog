@@ -14,7 +14,7 @@ export function ActiveLink({ children, activeClassName, ...rest }: ActiveLinkPro
   //Se a rota/pagina que estamos acessando for igual ao link que ele clicou entao ativamos o classname
 
   return(
-    <Link {...rest}>
+    <Link {...rest} legacyBehavior>
       {cloneElement(children, {
         className
       })}

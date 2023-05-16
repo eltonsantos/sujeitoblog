@@ -85,7 +85,7 @@ export default function Posts({ posts: postsBlog, page, totalPage }: PostsProps)
      <main className={styles.container}>
        <div className={styles.posts}>
         {posts.map( post => (
-          <Link key={post.slug} href={`/posts/${post.slug}`}>
+          <Link key={post.slug} href={`/posts/${post.slug}`} legacyBehavior>
             <a key={post.slug}>
               <Image 
                 src={post.cover} 
